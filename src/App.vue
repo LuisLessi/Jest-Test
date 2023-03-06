@@ -1,15 +1,21 @@
 <template>
+  <Nav/>
   <header>
   <TodoApp />
+  <Parent/>
   </header>
 </template>
 
 <script>
 import TodoApp from './components/TodoApp.vue'
+import Nav from './components/Nav.vue'
+import Parent from './components/Parent.vue'
 
 export default{
   components: {
-    TodoApp
+    TodoApp,
+    Nav,
+    Parent
   }
 }
 
